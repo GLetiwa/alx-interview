@@ -14,3 +14,9 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
+
+
+# test function
+triangle = pascal_triangle(5)
+for i in triangle:
+    print("[{}]".format(",".join([str(x) for x in row])))
